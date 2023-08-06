@@ -2,15 +2,21 @@
     <div>
       <h1>About Us</h1>
       <p>This is the About page.</p>
-      <button @click="goToHomePage">Go to Home Page</button>
     </div>
   </template>
   
   <script setup>
-    /**
-      * TODO 5:
-      * Implement the goToHomePage() method that navigates to the Home page
-      * Hint: Use the $router.push() method
-    */
-    function goToHomePage() {}
   </script>
+
+<style scoped>
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    
+        p {
+            font-size: 1.25rem;
+            text-align: center;
+        }
+</style>
